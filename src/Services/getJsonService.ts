@@ -13,6 +13,8 @@ export default class JsonService {
         const body = JSON.parse(req.body)
         if(body.url == url){
           res.status(200).json(MyJSON) 
+        }else{
+          res.status(200).json({code: 404})
         }
         // res.send('url não encontrada')
     }
