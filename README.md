@@ -10,3 +10,4 @@
     - A camada de aplicação ficou esturutrada dentro de page/api. Todas as rotas estão definidas nessa hierarquia, pois é como o NEXT.js monta o projeto.
     
 
+Artigo referente à:  https://www.agazeta.com.br/es/cotidiano/tres-unidades-de-saude-de-cariacica-vao-funcionar-aos-finais-de-semana-0723

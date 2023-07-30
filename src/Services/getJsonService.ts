@@ -1,4 +1,4 @@
-import MyJSON from "../json/materia-1.json"
+import MyJSON from "../json/materia-01.json"
 
 //DEVE SER UMA CLASSE
 

@@ -1,0 +1,53 @@
+$heightAppBar: 50px;
+
+@mixin displayFlex() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerPrevent {
+    height: calc($heightAppBar + 15px);
+    .header {
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0px 1px 10px grey;
+        position: fixed;
+        top: 0;
+        height: $heightAppBar;
+        width: 100%;
+    }
+}
+
+.menu {
+    // background-color: green;
+    width: 60px;
+    padding: 10px;
+    @include displayFlex()
+}
+
+.logo {
+    // background-color: blue;
+    width: 100%;
+    @include displayFlex()
+}
+
+.login {
+    // background-color: yellow;
+    width: 200px;
+    @include displayFlex();
+    .joinButton{
+        background-color: #d3a511;
+        color: white;
+        border: none;
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 414px) {}
+
+@media (min-width: 415px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) {}

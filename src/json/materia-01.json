@@ -1,0 +1,549 @@
+{
+    "Version": 1,
+    "ExternalId": "1061820732",
+    "StandaloneVersion": "1.0",
+    "Blocked": false,
+    "Cxense": {
+        "RecsSection": "es",
+        "RecsSectionClass": "cotidiano",
+        "SubRecsSectionClass": "grande-vitoria"
+    },
+    "Site": {
+        "ID": 204,
+        "Name": "Cotidiano",
+        "Class": null,
+        "Description": "Leia as principais notícias do cotidiano do ES e fique informado sobre saúde, educação, segurança pública, meio ambiente e muito mais sobre o dia a dia do nosso Estado.",
+        "Rules": {
+            "author": "",
+            "twitter": {
+                "image": "",
+                "title": "",
+                "description": ""
+            },
+            "facebook": {
+                "image": "",
+                "title": "",
+                "description": ""
+            },
+            "whatsapp": {
+                "image": ""
+            },
+            "site-image": ""
+        },
+        "FacebookCategory": "Social Issues",
+        "VideoRecommendation": {
+            "code": "WvgmBpZG",
+            "player": "64NPRLlC",
+            "recommend": true
+        }
+    },
+    "Vehicle": {
+        "Name": "A Gazeta Site"
+    },
+    "ItemMeta": {
+        "Meta": {
+            "General": {
+                "Headline": "Três unidades de saúde de Cariacica vão funcionar aos finais de semana",
+                "Description": "Com ampliação de dias de atendimento, a previsão é ofertar 8 mil consultas a mais no município por mês",
+                "Image": "https://midias.agazeta.com.br/2023/07/29/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg"
+            },
+            "Facebook": {
+                "Headline": "Três unidades de saúde de Cariacica vão funcionar aos finais de semana",
+                "Description": "Com ampliação de dias de atendimento, a previsão é ofertar 8 mil consultas a mais no município por mês",
+                "Image": "https://midias.agazeta.com.br/2023/07/29/600x315/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg"
+            },
+            "Twitter": {
+                "Headline": "Três unidades de saúde de Cariacica vão funcionar aos finais de semana",
+                "Description": "Com ampliação de dias de atendimento, a previsão é ofertar 8 mil consultas a mais no município por mês",
+                "Image": "https://midias.agazeta.com.br/2023/07/29/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725-article.jpg"
+            },
+            "Whatsapp": {
+                "Image": "https://midias.agazeta.com.br/2023/07/29/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725-article.jpg"
+            }
+        },
+        "Class": "text",
+        "Provider": "Rede Gazeta",
+        "VersionCreated": "2023-07-29T20:10:49-03:00",
+        "FirstCreated": "2023-07-29T20:10:49-03:00",
+        "Expiration": "2023-08-28T20:10:49-03:00",
+        "Embargoed": "2023-07-29T20:10:49-03:00",
+        "PubStatus": "usable",
+        "EdNote": "",
+        "Signal": "insert",
+        "Service": {
+            "Id": "AGNews",
+            "Name": null
+        },
+        "Slugline": "/es/cotidiano/2023/07/",
+        "LinkRelationships": [],
+        "IsSpecial": false,
+        "Flags": {
+            "Live": false,
+            "hasAudio": false,
+            "hasGallery": false,
+            "hasVideo": false,
+            "hasErrata": false,
+            "Sponsor": false,
+            "Exclusive": false,
+            "Interview": false
+        },
+        "Crops": [
+            {
+                "id": 10560409,
+                "name": "Foto 360x640 - X056_1",
+                "ratio": "0.56",
+                "url": "https://midias.agazeta.com.br/2023/07/29/360x640/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                "width": 360,
+                "height": 640,
+                "crop": "RATIO_X056_1",
+                "credit": "Prefeitura de Cariacica"
+            },
+            {
+                "id": 10560407,
+                "name": "Foto 465x553 - X084_1",
+                "ratio": "0.84",
+                "url": "https://midias.agazeta.com.br/2023/07/29/465x553/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                "width": 465,
+                "height": 553,
+                "crop": "RATIO_X084_1",
+                "credit": "Prefeitura de Cariacica"
+            },
+            {
+                "id": 10560406,
+                "name": "Foto 500x500 - X100_2",
+                "ratio": "1",
+                "url": "https://midias.agazeta.com.br/2023/07/29/500x500/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                "width": 500,
+                "height": 500,
+                "crop": "RATIO_X100_2",
+                "credit": "Prefeitura de Cariacica"
+            },
+            {
+                "id": 10560405,
+                "name": "Corte Galeria Comum",
+                "ratio": "1.33",
+                "url": "https://midias.agazeta.com.br/2023/07/29/590x443/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                "width": 590,
+                "height": 443,
+                "crop": "RATIO_X133_2",
+                "credit": "Prefeitura de Cariacica"
+            },
+            {
+                "id": 10560404,
+                "name": "Foto 598 x 337 - lista de minuto a minuto",
+                "ratio": "1.77",
+                "url": "https://midias.agazeta.com.br/2023/07/29/598x337/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                "width": 598,
+                "height": 337,
+                "crop": "RATIO_X177_3",
+                "credit": "Prefeitura de Cariacica"
+            },
+            {
+                "id": 10560400,
+                "name": "Foto 710x388 - lista de matéria em editorias, colunas, mais recentes em matérias",
+                "ratio": "2.10",
+                "url": "https://midias.agazeta.com.br/2023/07/29/710x388/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                "width": 710,
+                "height": 388,
+                "crop": "RATIO_X210_2",
+                "credit": "Prefeitura de Cariacica"
+            },
+            {
+                "id": 10560402,
+                "name": "Foto 620x248 - X250_3",
+                "ratio": "2.50",
+                "url": "https://midias.agazeta.com.br/2023/07/29/620x248/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                "width": 620,
+                "height": 248,
+                "crop": "RATIO_X250_3",
+                "credit": "Prefeitura de Cariacica"
+            }
+        ]
+    },
+    "PartMeta": [],
+    "Contents": [
+        {
+            "Class": "text",
+            "Created": "2023-07-29T20:10:49-03:00",
+            "Modified": "",
+            "Event": null,
+            "Creator": "Redação de A Gazeta",
+            "InfoSource": "originfo",
+            "Subject": "Ampliação de atendimento",
+            "Creditline": "",
+            "CruedTitle": "Três unidades de saúde de Cariacica vão funcionar aos finais de semana",
+            "Language": "pt-BR",
+            "Comment": true,
+            "Redirect": null,
+            "Description": "Com ampliação de dias de atendimento, a previsão é ofertar 8 mil consultas a mais no município por mês",
+            "Contributor": {
+                "Participation": "",
+                "Description": ""
+            },
+            "Genre": {
+                "Name": "News",
+                "@Type": "ReportageNewsArticle",
+                "Template": {
+                    "Name": "News",
+                    "Version": "1.0"
+                }
+            },
+            "Persons": [
+                {
+                    "Name": "Redação de A Gazeta",
+                    "IsCreator": true,
+                    "IsAgency": false,
+                    "URL": "https://www.agazeta.com.br/autor/gazeta-online",
+                    "Email": "online@redegazeta.com.br",
+                    "Facebook": "",
+                    "Instagram": "",
+                    "Twitter": "",
+                    "Linkedin": "",
+                    "URLImage": "",
+                    "Role": "Administrador",
+                    "Description": "",
+                    "Rule": "creator",
+                    "Latitude": 0,
+                    "Longitude": 0,
+                    "KnowsAbout": [],
+                    "Avatar": {
+                        "80x80": {
+                            "URL": "",
+                            "Thumb": ""
+                        },
+                        "150x150": {
+                            "URL": "",
+                            "Thumb": ""
+                        }
+                    },
+                    "JobTitle": "",
+                    "Graduation": "",
+                    "Awards": "",
+                    "Biography": "Fique por dentro das últimas notícias do Espírito Santo, do Brasil e do mundo com a redação de A Gazeta",
+                    "Contact": "",
+                    "Focus": "",
+                    "Language": [
+                        {
+                            "code": "pt-BR",
+                            "name": "Português (Brasileiro)"
+                        }
+                    ],
+                    "Location": ""
+                }
+            ],
+            "Located": {
+                "Type": null,
+                "Name": null,
+                "Latitude": 0,
+                "Longitude": 0
+            },
+            "PictureRemote": [
+                {
+                    "Type": "MainImage",
+                    "Rendition": "web",
+                    "URL": "https://midias.agazeta.com.br/2023/07/29/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725-article.jpg",
+                    "ContentType": "jpg",
+                    "Width": 600,
+                    "Height": 400,
+                    "Credit": "Prefeitura de Cariacica"
+                },
+                {
+                    "Type": "GazImage",
+                    "Rendition": "web",
+                    "Crop": "RATIO_X056_1",
+                    "URL": "https://midias.agazeta.com.br/2023/07/29/360x640/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                    "ContentType": "jpg",
+                    "Width": 360,
+                    "Height": 640,
+                    "Credit": "Prefeitura de Cariacica"
+                },
+                {
+                    "Type": "GazImage",
+                    "Rendition": "web",
+                    "Crop": "RATIO_X084_1",
+                    "URL": "https://midias.agazeta.com.br/2023/07/29/465x553/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                    "ContentType": "jpg",
+                    "Width": 465,
+                    "Height": 553,
+                    "Credit": "Prefeitura de Cariacica"
+                },
+                {
+                    "Type": "GazImage",
+                    "Rendition": "web",
+                    "Crop": "RATIO_X100_2",
+                    "URL": "https://midias.agazeta.com.br/2023/07/29/500x500/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                    "ContentType": "jpg",
+                    "Width": 500,
+                    "Height": 500,
+                    "Credit": "Prefeitura de Cariacica"
+                },
+                {
+                    "Type": "GazImage",
+                    "Rendition": "web",
+                    "Crop": "RATIO_X133_2",
+                    "URL": "https://midias.agazeta.com.br/2023/07/29/590x443/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                    "ContentType": "jpg",
+                    "Width": 590,
+                    "Height": 443,
+                    "Credit": "Prefeitura de Cariacica"
+                },
+                {
+                    "Type": "GazImage",
+                    "Rendition": "web",
+                    "Crop": "RATIO_X177_3",
+                    "URL": "https://midias.agazeta.com.br/2023/07/29/598x337/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                    "ContentType": "jpg",
+                    "Width": 598,
+                    "Height": 337,
+                    "Credit": "Prefeitura de Cariacica"
+                },
+                {
+                    "Type": "GazImage",
+                    "Rendition": "web",
+                    "Crop": "RATIO_X210_2",
+                    "URL": "https://midias.agazeta.com.br/2023/07/29/710x388/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                    "ContentType": "jpg",
+                    "Width": 710,
+                    "Height": 388,
+                    "Credit": "Prefeitura de Cariacica"
+                },
+                {
+                    "Type": "GazImage",
+                    "Rendition": "web",
+                    "Crop": "RATIO_X250_3",
+                    "URL": "https://midias.agazeta.com.br/2023/07/29/620x248/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                    "ContentType": "jpg",
+                    "Width": 620,
+                    "Height": 248,
+                    "Credit": "Prefeitura de Cariacica"
+                },
+                {
+                    "Type": "MetaImage",
+                    "Rendition": "web",
+                    "URL": "https://midias.agazeta.com.br/2023/07/29/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                    "ContentType": "jpg",
+                    "Width": 1110,
+                    "Height": 740,
+                    "Credit": "Prefeitura de Cariacica"
+                }
+            ],
+            "VideoRemote": [],
+            "ContentSet": {
+                "InLine": [
+                    {
+                        "type": "kicker",
+                        "data": {
+                            "text": "Ampliação de atendimento"
+                        },
+                        "id": "block-0gn0eb2pc2x7",
+                        "blocked": true
+                    },
+                    {
+                        "type": "title",
+                        "data": {
+                            "text": "Três unidades de saúde de Cariacica vão funcionar aos finais de semana"
+                        },
+                        "id": "block-00xh2ocepnmpl",
+                        "blocked": true
+                    },
+                    {
+                        "type": "summary",
+                        "data": {
+                            "text": "Com ampliação de dias de atendimento, a previsão é ofertar 8 mil consultas a mais no município por mês"
+                        },
+                        "id": "block-0emivjoadmh8",
+                        "blocked": true
+                    },
+                    {
+                        "type": "image",
+                        "data": {
+                            "id": "533291",
+                            "src": "https://midias.agazeta.com.br/2023/07/29/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725-article.jpg",
+                            "source": "system",
+                            "credit": "Prefeitura de Cariacica",
+                            "caption": "Unidades de saúde de Cariacica vão ampliar atendimento",
+                            "width": 600,
+                            "height": 400,
+                            "description": "Unidades de saúde de Cariacica vão ampliar atendimento",
+                            "ratiow": "3.0",
+                            "ratioh": "2.0"
+                        },
+                        "id": "block-0j82363rj8d9",
+                        "blocked": false
+                    },
+                    {
+                        "id": "block-0dgd6zbp7xb",
+                        "type": "paragraph",
+                        "data": {
+                            "as": "text",
+                            "length": 291,
+                            "value": "Três unidades de saúde de&nbsp;<a href=\"https://www.agazeta.com.br/tema/cariacica\" class=\"link\" target=\"_blank\">Cariacica</a>&nbsp;vão passar a funcionar também durante os finais de semana. Além dos atendimentos realizados de segunda a sexta-feira, as unidades de saúde de Flexal II, Nova Rosa da Penha e Morada de Santa Fé funcionarão durante os sábados e domingos das 7h às 16 horas.&nbsp;"
+                        },
+                        "blocked": false
+                    },
+                    {
+                        "id": "block-0dcll1nk48k",
+                        "type": "paragraph",
+                        "data": {
+                            "as": "text",
+                            "length": 184,
+                            "value": "A ampliação de atendimento começou a valer neste sábado (29) e a estimativa da secretaria de saúde do município é ampliar em 8 mil o número de consultas oferecidas por mês à população."
+                        },
+                        "blocked": false
+                    },
+                    {
+                        "id": "block-0lb9z3vxvoha",
+                        "type": "paragraph",
+                        "data": {
+                            "as": "text",
+                            "length": 218,
+                            "value": "Durante o funcionamento nos finais de semana, as unidades vão oferecer consultas médicas com clínico geral, atendimento de enfermagem, aferição de pressão arterial, entre outros serviços de uma unidade básica de saúde."
+                        },
+                        "blocked": false
+                    },
+                    {
+                        "id": "block-0r29dzl3b9k8",
+                        "type": "paragraph",
+                        "data": {
+                            "as": "text",
+                            "length": 320,
+                            "value": "O secretário de Saúde de Cariacica, César Colnago, disse em entrevista à TV Gazeta que os médicos que vão atuar nas unidades são os mesmos clínicos que trabalham durante a semana. Nas três unidades, estarão sete médicos. \"Todas as consultas são agendadas, sendo 80% pela internet de 20% de forma presencial, na unidade\"."
+                        },
+                        "blocked": false
+                    },
+                    {
+                        "id": "block-0gkcombcekbn",
+                        "type": "paragraph",
+                        "data": {
+                            "as": "text",
+                            "length": 352,
+                            "value": "O autônomo Roberto Chaves avaliou como positiva a mudança. Ele procurou a unidade de saúde de Santa Fé e conseguiu agendar uma consulta à tarde. \"Achei uma maravilha, principalmente para as pessoas que não têm tempo. E às vezes as famílias têm crianças doentes e não pode se deslocar durante a semana porque trabalham\", disse à reportagem da TV Gazeta."
+                        },
+                        "blocked": false
+                    },
+                    {
+                        "id": "block-0u31in1m5hg",
+                        "type": "paragraph",
+                        "data": {
+                            "as": "text",
+                            "length": 28,
+                            "value": "<i>Com informações da TV Gazeta</i>"
+                        },
+                        "blocked": false
+                    },
+                    {
+                        "type": "embed_auto",
+                        "data": {
+                            "type": "other",
+                            "value": "<div id=\"cx_cb08ac71833986f8c67429aae156cd1d8c12dcd2\"></div> ",
+                            "src": null
+                        },
+                        "id": "block-09r2fmwwkqdb",
+                        "blocked": false
+                    }
+                ]
+            },
+            "Slugline": "/es/cotidiano/2023/07/",
+            "Headline": "Três unidades de saúde de Cariacica vão funcionar aos finais de semana",
+            "Keywords": [
+                {
+                    "url": "cariacica",
+                    "word": "Cariacica",
+                    "sysname": "cariacica"
+                },
+                {
+                    "word": "Unidade de Saúde",
+                    "sysname": "unidade_de_saude"
+                }
+            ],
+            "Location": {
+                "Country": "BR",
+                "State": "",
+                "City": null,
+                "Neighborhood": ""
+            }
+        }
+    ],
+    "PaymentDetails": {
+        "Price": 0,
+        "Payment": "Editorial",
+        "Ref": 0,
+        "Sponsor": null,
+        "Block": null,
+        "Cxense": 0,
+        "Paywall": false
+    },
+    "RightsInfo": {
+        "Holder": "©1996-2019 Gazeta Online.",
+        "Notice": "©1996-2019 Gazeta Online. Todos os direitos reservados",
+        "UsageTerms": "©1996-2019 Gazeta Online. Todos os direitos reservados",
+        "Creator": false,
+        "Section": false,
+        "IsAuthorIdea": false,
+        "IsAuthorIdeaText": null,
+        "Publisher": null
+    },
+    "Extras": {
+        "allProcessedElements": [
+            "kicker",
+            "title",
+            "summary",
+            "image",
+            "paragraph",
+            "embed_auto"
+        ],
+        "distribution": {
+            "flip": {
+                "ir": "0",
+                "secao": "",
+                "setor": "",
+                "chapeu": "Ampliação de atendimento",
+                "imagem": null,
+                "titulo": "Três unidades de saúde de Cariacica vão funcionar aos finais de semana",
+                "descricao": "Com ampliação de dias de atendimento, a previsão é ofertar 8 mil consultas a mais no município por mês",
+                "publicacao": {
+                    "data": {
+                        "dia": "",
+                        "hora": ""
+                    },
+                    "tipo": "1"
+                }
+            },
+            "googlec": {
+                "ir": "0",
+                "image": {
+                    "url": "https://midias.agazeta.com.br/2023/07/29/710x388/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                    "thumbnail": "https://midias.agazeta.com.br/2023/07/29/710x388/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725-thumb.jpeg"
+                },
+                "chapeu": "Ampliação de atendimento",
+                "imagem": {
+                    "url": "https://midias.agazeta.com.br/2023/07/29/710x388/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725.jpg",
+                    "thumbnail": "https://midias.agazeta.com.br/2023/07/29/710x388/unidades-de-saude-de-cariacica-vao-ampliar-atendimento-1820725-thumb.jpeg"
+                },
+                "titulo": "Três unidades de saúde de Cariacica vão funcionar aos finais de semana"
+            },
+            "videorecommendation": {
+                "recommend": true
+            }
+        },
+        "noIndex": false,
+        "backstory": {
+            "refs": [],
+            "text": ""
+        },
+        "readTime": 2,
+        "ClaimReview": {},
+        "ArticleHeight": 2064.96
+    },
+    "Link": "https://www.agazeta.com.br/es/cotidiano/tres-unidades-de-saude-de-cariacica-vao-funcionar-aos-finais-de-semana-0723",
+    "GUID": "urn:newsjson:RedeGazeta:20230729:1061820732",
+    "Lang": "pt-BR",
+    "FileURL": "tres-unidades-de-saude-de-cariacica-vao-funcionar-aos-finais-de-semana.json",
+    "Standard": {
+        "Name": "NewsJSON",
+        "Version": "3.0-DRAFT3"
+    },
+    "Conformance": "power",
+    "GeneralId": "40c8ab69-30f9-46f2-845b-4eee282863d7",
+    "_id": "64c59c9b86a6ce8c2cbb52db"
+}
