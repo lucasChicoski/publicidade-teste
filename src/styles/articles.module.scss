@@ -1,14 +1,98 @@
-
-
-.pageContent{
-    display: flex;
-    flex-direction: row;
+@mixin displeyFlex($display: flex, $flexDirection: row, $alignItens: center, $justifyContent: center) {
+    display: $display;
+    flex-direction: $flexDirection ;
+    align-items: $alignItens;
+    justify-content: $justifyContent;
 }
 
-.pageAsideLeft{
 
+
+
+
+
+
+.asideRight {
+    // background-color: yellow;
+    width: 300px;
+    @include displeyFlex()
 }
 
-.pageAsideRight{
-    
+
+
+@media (max-width: 414px) {
+    .pageContent {
+        display: flex;
+        flex-direction: row;
+    }
+    .asideLeft {
+        // background-color: blue;
+        width: 300px;
+        @include displeyFlex(none)
+    }
+    .asideRight {
+        // background-color: yellow;
+        width: 300px;
+        @include displeyFlex(none)
+    }
+
+    .content {
+        // background-color: aquamarine;
+        width: 100vh;
+        padding: 5%;
+        @include displeyFlex(flex, column, flex-start)
+    }
+}
+
+@media (min-width: 415px) and (max-width: 1024px) {
+    .pageContent {
+        display: flex;
+        flex-direction: row;
+        // align-items: flex-start;
+        // justify-content: flex-start;
+    }
+    .asideLeft {
+        // background-color: blue;
+        width: 300px;
+        @include displeyFlex(none)
+    }
+
+    .asideRight {
+        // background-color: yellow;
+        width: 300px;
+        @include displeyFlex(none)
+    }
+
+    .content {
+        // background-color: aquamarine;
+        width: 100vh;
+        padding: 5%;
+        
+        @include displeyFlex(flex, column, flex-start)
+    }
+}
+
+@media (min-width: 1025px) {
+    .pageContent {
+        display: flex;
+        flex-direction: row;
+    }
+    .asideLeft {
+        // background-color: blue;
+        width: 1000px;
+        @include displeyFlex()
+    }
+
+    .asideRight {
+        // background-color: yellow;
+        width: 1500px;
+        @include displeyFlex()
+    }
+
+    .content {
+        // background-color: aquamarine;
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        @include displeyFlex(flex, column, flex-start)
+    }
 }

@@ -9,6 +9,7 @@ $heightAppBar: 50px;
 .headerPrevent {
     height: calc($heightAppBar + 15px);
     .header {
+        background-color: white;
         display: flex;
         flex-direction: row;
         box-shadow: 0px 1px 10px grey;
@@ -32,22 +33,56 @@ $heightAppBar: 50px;
     @include displayFlex()
 }
 
-.login {
-    // background-color: yellow;
-    width: 200px;
-    @include displayFlex();
-    .joinButton{
-        background-color: #d3a511;
-        color: white;
-        border: none;
-        height: 30px;
-        width: 100px;
-        border-radius: 10px;
+
+@media (max-width: 414px) {
+
+
+    .login {
+        // background-color: yellow;
+        width: 200px;
+        @include displayFlex();
+        .joinButton{
+            visibility: hidden;
+            background-color: #d3a511;
+            color: white;
+            border: none;
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+        }
+    }
+        
+}
+
+@media (min-width: 415px) and (max-width: 1024px) {
+    .login {
+        // background-color: yellow;
+        width: 200px;
+        @include displayFlex();
+        .joinButton{
+            background-color: #d3a511;
+            color: white;
+            border: none;
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+        }
     }
 }
 
-@media (max-width: 414px) {}
+@media (min-width: 1025px) {
+    .login {
+        // background-color: yellow;
+        width: 200px;
+        @include displayFlex();
+        .joinButton{
 
-@media (min-width: 415px) and (max-width: 1024px) {}
-
-@media (min-width: 1025px) {}
+            background-color: #d3a511;
+            color: white;
+            border: none;
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+        }
+    }
+}
