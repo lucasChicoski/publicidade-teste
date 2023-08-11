@@ -9,10 +9,18 @@ import Midias from "@/components/Midias/index"
 import Title from "@/components/Title/Title"
 import { useState } from "react"
 import { defineComponents } from "@/Global/defineComponents"
+import { Metadata } from "next"
 // import defineComponents from "@/Global/defineComponents"
 
 const produrl = 'https://stately-donut-218a96.netlify.app/'
 const localurl = 'http://localhost:3000/'
+
+
+export const metadata: Metadata = {
+    title: 'Ampliação de atendimento',
+    description: 'Três unidades de saúde de Cariacica vão funcionar aos finais de semana',
+  }
+
 export async function getServerSideProps(context: any) {
     // Fetch data from external API
     const listParams: Array<string> = context.params.endpoint as Array<string>
