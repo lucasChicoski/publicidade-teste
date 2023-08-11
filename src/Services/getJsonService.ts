@@ -10,11 +10,19 @@ export default class JsonService {
         /**
          * Buscar e validar o caminho no banco.
          */
-        const body = JSON.parse(req.body)
+        let body;
+        if( typeof(req.body) == 'object' ){
+          body = req.body
+        }else {
+          body = JSON.parse(req.body)
+        }
+
+      // console.log('teste', JSON.parse(req.body))
+        // const body = JSON.parse(req.body)
         if(body.url == url){
           res.status(200).json(MyJSON) 
         }else{
-          res.status(200).json({code: 404})
+          res.status(200).json({code: 404, message: 'url não encontrada'})
         }
         // res.send('url não encontrada')
     }
