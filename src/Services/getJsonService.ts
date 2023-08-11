@@ -10,6 +10,7 @@ export default class JsonService {
         /**
          * Buscar e validar o caminho no banco.
          */
+        console.log('teste')
         let body;
         if( typeof(req.body) == 'object' ){
           body = req.body
@@ -17,7 +18,6 @@ export default class JsonService {
           body = JSON.parse(req.body)
         }
 
-      // console.log('teste', JSON.parse(req.body))
         // const body = JSON.parse(req.body)
         if(body.url == url){
           res.status(200).json(MyJSON) 

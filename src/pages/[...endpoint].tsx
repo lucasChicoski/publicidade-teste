@@ -11,18 +11,20 @@ import { useState } from "react"
 import { defineComponents } from "@/Global/defineComponents"
 // import defineComponents from "@/Global/defineComponents"
 
+const produrl = 'https://stately-donut-218a96.netlify.app/'
+const localurl = 'http://localhost:3000/'
 export async function getServerSideProps(context: any) {
     // Fetch data from external API
     const listParams: Array<string> = context.params.endpoint as Array<string>
 
     var endpointUrl = listParams.join('/')
-    const res = await fetch('http://localhost:3000/api/json/getjson', {
+    const res = await fetch( produrl + 'api/json/getjson', {
         method: "POST",
         body: JSON.stringify({ url: endpointUrl })
     })
     const json = await res.json()
 
-
+    console.log(json)
     return { props: { json } }
     // const listParams: Array<string> = router.query.endpoint as Array<string>
     // Pass data to the page via props
