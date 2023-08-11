@@ -10,6 +10,7 @@ import Title from "@/components/Title/Title"
 import { useState } from "react"
 import { defineComponents } from "@/Global/defineComponents"
 import { Metadata } from "next"
+import Head from "next/head"
 // import defineComponents from "@/Global/defineComponents"
 
 const produrl = 'https://stately-donut-218a96.netlify.app/'
@@ -43,6 +44,10 @@ export default function Main(props: any) {
     const listElements = defineComponents(props)
     return (
         <div>
+            <Head>
+                <meta name="title" content="Testando o NEXT.js." />
+                <meta name="description" content="Primeira página." />
+            </Head>
             <Header />
             <div className={articleStyle.pageContent}>
                 <div className={articleStyle.asideLeft}>
